@@ -38,6 +38,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ITransaction.cs" />
+    <Compile Include="FixedStateTransaction.cs" />
     <Compile Include="Transaction.cs" />
     <Compile Include="TransactionT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

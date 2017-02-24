@@ -9,7 +9,7 @@ namespace TransactionTree
     /// Represents a generic transaction, that takes a lambda for the change.
     /// </summary>
     /// <typeparam name="T">The type that the transaction can be applied to.</typeparam>
-    public class Transaction<T> : ITransaction<T>
+    public sealed class Transaction<T> : ITransaction<T>
     {
         private readonly Func<T, T> apply;
 
